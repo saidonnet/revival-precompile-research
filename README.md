@@ -6,7 +6,7 @@
 
 This repository documents a comprehensive 6-day research journey into solving Ethereum's state bloat problem through **state expiry and stateless validation**. The research evolved through multiple iterations (V1-V4), with each version addressing critical vulnerabilities identified through rigorous adversarial analysis. The final V4 architecture presents a **provably secure, protocol-native solution** for stateless Ethereum clients.
 
-**Total Research Cost:** <$140 | **Development Methodology:** Adversarial AI synthesis with 600-agent simulation framework
+**Total Research Cost:** <$140
 
 ## The State Bloat Problem
 
@@ -20,7 +20,7 @@ Ethereum's active state is growing unsustainably:
 
 ### Version 1: PARADISE Framework (Market-Based Approach)
 
-**Paper:** [1 PARADISE.pdf](whitepapers/1%20PARADISE.pdf) | [LaTeX Source](whitepapers/1%20paradise%20deliberation_session_6712a529_1760227609883_complete.tex)
+**Paper:** [1 PARADISE.pdf](whitepapers/1%20PARADISE.pdf)
 
 **Key Concepts:**
 - State lifecycle: Active → Inactive → Expired → Archived
@@ -42,7 +42,7 @@ Ethereum's active state is growing unsustainably:
 
 ### Version 2: Production-Ready Precompile
 
-**Paper:** [2 RevivalPrecompileV2.pdf](whitepapers/2%20RevivalPrecompileV2.pdf) | [LaTeX Source](whitepapers/2%20RevivalPrecompileV2%20deliberation_session_7c6f955d_1760251441850_complete.tex)
+**Paper:** [2 RevivalPrecompileV2.pdf](whitepapers/2%20RevivalPrecompileV2.pdf)
 
 **Key Innovation: Conditional Persistence Model**
 
@@ -70,7 +70,7 @@ Separates state verification from state writes:
 
 ### Version 2 Attack Analysis: "PARADISE Lost"
 
-**Paper:** [3 RevivalPrecompileV2 - SelfAttack - PARADISE Lost.pdf](whitepapers/3%20RevivalPrecompileV2%20-%20SelfAttack%20-%20PARADISE%20Lost.pdf) | [LaTeX Source](whitepapers/3_attak_RevivalPrecompileV2.tex)
+**Paper:** [3 RevivalPrecompileV2 - SelfAttack - PARADISE Lost.pdf](whitepapers/3%20RevivalPrecompileV2%20-%20SelfAttack%20-%20PARADISE%20Lost.pdf)
 
 **Critical Finding:** The Continuous Proof Market (CPM) is fundamentally unstable
 
@@ -110,7 +110,7 @@ Separates state verification from state writes:
 
 ### Version 3: Protocol-Native Witness Inclusion (PNWI)
 
-**Paper:** [4 RevivalPrecompileV3.pdf](whitepapers/4%20RevivalPrecompileV3.pdf) | [LaTeX Source](whitepapers/4_advertisal.tex)
+**Paper:** [4 RevivalPrecompileV3.pdf](whitepapers/4%20RevivalPrecompileV3.pdf)
 
 **Paradigm Shift:** Eliminate external witness markets entirely
 
@@ -151,7 +151,7 @@ TransactionType || RLP([
 
 ### Version 3 Engineering Validation
 
-**Paper:** [5 RevivalPrecompileV3 - Engineering Validation and Benchmarking.pdf](whitepapers/5%20RevivalPrecompileV3%20-%20Engineering%20Validation%20and%20Benchmarking.pdf) | [LaTeX Source](whitepapers/5_V3.tex)
+**Paper:** [5 RevivalPrecompileV3 - Engineering Validation and Benchmarking.pdf](whitepapers/5%20RevivalPrecompileV3%20-%20Engineering%20Validation%20and%20Benchmarking.pdf)
 
 **Simulation Framework Components:**
 1. `StatelessTransactionSimulator` - Transaction modeling with witness validation
@@ -189,7 +189,7 @@ Three dimensions:
 
 ### Version 3 Attack Analysis: Path to V4
 
-**Paper:** [6 Adversarial Analysis of RevivalPrecompileV3.pdf](whitepapers/6%20Adversarial%20Analysis%20of%20RevivalPrecompileV3.pdf) | [LaTeX Source](whitepapers/6_selfattack_on_V3.tex)
+**Paper:** [6 Adversarial Analysis of RevivalPrecompileV3.pdf](whitepapers/6%20Adversarial%20Analysis%20of%20RevivalPrecompileV3.pdf)
 
 **4 Critical V3 Vulnerabilities:**
 
@@ -229,7 +229,7 @@ Three dimensions:
 
 ### Version 4: Provably Secure Architecture (FINAL)
 
-**Paper:** [7 RevivalPrecompileV4.pdf](whitepapers/7%20RevivalPrecompileV4.pdf) | [LaTeX Source](whitepapers/7_V4.tex)
+**Paper:** [7 RevivalPrecompileV4.pdf](whitepapers/7%20RevivalPrecompileV4.pdf)
 
 **Defense-in-Depth Architecture Based on Three Principles:**
 
@@ -407,7 +407,7 @@ The research proposes a 4-hardfork migration strategy:
 ## Repository Structure
 
 ```
-├── whitepapers/           # Complete LaTeX source + PDFs
+├── whitepapers/           # Research papers (PDF format)
 │   ├── 1 PARADISE.pdf    # V1: Market-based approach
 │   ├── 2 RevivalPrecompileV2.pdf   # V2: Conditional persistence
 │   ├── 3 RevivalPrecompileV2 - SelfAttack - PARADISE Lost.pdf
@@ -452,18 +452,6 @@ The research proposes a 4-hardfork migration strategy:
         └── reputation_system.py
 ```
 
-## Research Methodology
-
-**Adversarial AI Synthesis:** This research employed a unique methodology using multiple AI agents in adversarial roles:
-
-- **Architect Agents** - Design system architecture
-- **Security Agents** - Identify vulnerabilities and attack vectors
-- **Economic Agents** - Model game-theoretic interactions
-- **Implementation Agents** - Write production-ready code
-- **Validation Agents** - Formal verification and testing
-
-**Timeline:** 6 days | **Cost:** <$140 | **Agent Count:** 600+ simulated validators/attackers
-
 ## Citations & References
 
 This work builds upon:
@@ -488,9 +476,10 @@ This project was developed by an independent researcher. **Support is urgently n
 
 ### How to Support
 
+- **Ko-fi:** [ko-fi.com/saidrahmani](https://ko-fi.com/saidrahmani)
+- **OpenCollective:** [opencollective.com/state_revival](https://opencollective.com/state_revival)
 - **GitHub Sponsors:** [github.com/sponsors/saidonnet](https://github.com/sponsors/saidonnet)
 - **Direct Contact:** saidonnet@gmail.com
-- **OpenCollective:** (TBD)
 - **Ethereum Grants:** Help apply for EF, Gitcoin, Protocol Guild
 
 **Any amount helps.** This research represents hundreds of hours of work for <$140 in compute costs. Your support enables continued open-source blockchain research.
