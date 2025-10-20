@@ -43,7 +43,6 @@ This project is maintained by a solo researcher who is currently seeking financi
 
 - [GitHub Sponsors](https://github.com/sponsors/saidonnet)
 - [OpenCollective](https://opencollective.com/revival) *(if available)*
-- ETH: `0xYOUR_ETH_ADDRESS_HERE`
 - Other: See FUNDING.md
 
 ## How to Help
