@@ -6,8 +6,6 @@
 
 This repository documents a comprehensive 6-day research journey into solving Ethereum's state bloat problem through **state expiry and stateless validation**. The research evolved through multiple iterations (V1-V4), with each version addressing critical vulnerabilities identified through rigorous adversarial analysis. The final V4 architecture presents a **provably secure, protocol-native solution** for stateless Ethereum clients.
 
-**Total Research Cost:** <$140
-
 ## The State Bloat Problem
 
 Ethereum's active state is growing unsustainably:
